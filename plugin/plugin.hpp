@@ -18,6 +18,5 @@ public:
 	pattern_maker();
 	virtual ~pattern_maker();
 
-	virtual void term();
 	virtual bool idaapi run(size_t arg) override;
 };

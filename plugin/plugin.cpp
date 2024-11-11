@@ -8,10 +8,6 @@ pattern_maker::~pattern_maker() {
 	msg("PatternMaker: Unloaded successfully.\n");
 }
 
-void pattern_maker::term() {
-	msg("PatternMaker: Terminating.\n");
-}
-
 bool pattern_maker::run(size_t arg) {
 	std::vector<uint8_t> bytes = {};
 	std::vector<uint8_t> mask = {};
